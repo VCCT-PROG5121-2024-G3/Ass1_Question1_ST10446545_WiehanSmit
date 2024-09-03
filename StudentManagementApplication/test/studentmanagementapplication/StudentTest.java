@@ -7,6 +7,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+/** 
+ *
+ * @author WiehanSmit ST10446545@vcconnect.edu.za ST10446545
+ */ 
+
 public class StudentTest {
 
     private Student instance;
@@ -24,7 +29,7 @@ public class StudentTest {
 
     @Before
     public void setUp() {
-        // Initialize a test instance before each test
+       
         instance = new Student("10111", "J.Bloggs", 19, "jbloggs@ymail.com", "disd");
     }
 
@@ -77,6 +82,5 @@ public class StudentTest {
     public void testDisplayStudent() {
         System.out.println("displayStudent");
         instance.displayStudent();
-        // Additional validation could be added here to check output or mock the output stream
     }
 }
