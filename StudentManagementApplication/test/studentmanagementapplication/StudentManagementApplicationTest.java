@@ -7,6 +7,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+/** 
+ *
+ * @author WiehanSmit ST10446545@vcconnect.edu.za ST10446545
+ */ 
+
 public class StudentManagementApplicationTest {
 
     public StudentManagementApplicationTest() {
@@ -19,18 +24,17 @@ public class StudentManagementApplicationTest {
 
     @AfterClass
     public static void tearDownClass() {
-        // Code to tear down test class resources if needed
+       
     }
 
     @Before
     public void setUp() {
-        // Code to set up before each test method
-        StudentManagementApplication.studentList.clear(); // Clear student list before each test
+        StudentManagementApplication.studentList.clear(); 
     }
 
     @After
     public void tearDown() {
-        // Code to clean up after each test method if needed
+        
     }
 
     @Test
