@@ -19,7 +19,6 @@ public class StudentManagementApplicationTest {
 
     @BeforeClass
     public static void setUpClass() {
-        // Code to set up test class resources if needed
     }
 
     @AfterClass
